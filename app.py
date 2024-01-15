@@ -44,7 +44,7 @@ def scraper_function(link, result_queue):
         options.add_argument(f"--user-agent={windows_user_agent}")
         options.add_argument("--window-size=1920x1080")
 
-        options.add_argument('--load-extension=D:\\autologinbot-master\\SimplyTrends')
+        options.add_argument('--load-extension=SimplyTrends')
         browser = webdriver.Chrome(options=options)
 
         i = random.randint(2, 57)
